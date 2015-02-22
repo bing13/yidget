@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+   <link href="http://media.bernardhecker.com/yid/yid_flask.css" rel="stylesheet" type="text/css" media="all" >
+
+<title>return of the yidget</title>
+</head>
+<body>
+
+<div class="yiddish_standalone">
+<img src="http://media.bernardhecker.com/images/yiddish_theatre/{{ poster }}" width="300" align="right" />
+<h1>yiddish phrase of the moment</h1>
+
+
+<dl>
+<dt>Yiddish</dt>
+<dd id="y1">{{ yid|safe }}</dd>
+<dt>English</dt>
+<dd id="e1">{{ eng|safe }}</dt>
+</dl>
+
+</div>
+
+</body>
+</html>
